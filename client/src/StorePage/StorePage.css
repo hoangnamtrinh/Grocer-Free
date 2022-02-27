@@ -1,0 +1,63 @@
+.store-page-bg {
+  min-height: 100vh;
+  background: linear-gradient(to right,#4daf54, #3d8888);
+  justify-content: center;
+}
+
+.store-logo {
+  width: 70%;
+  margin: auto;
+}
+
+.store-logo img {
+  object-fit: cover;
+  width: 30%;
+  height: 100%;
+  padding: 20px 0;
+}
+
+.grocery-list-ctn {
+  height: 70vh;
+  width: 70%;
+  background-color: #272d40;
+  margin: 0 auto;
+  padding: 40px;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.grocery-list {
+  overflow-y: scroll;
+  height: 90%;
+  border-radius: 10px;
+}
+
+.grocery-list::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.grocery-list {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.find-location-btn {
+  background: #4daf54;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  color: #272d40;
+  padding: 10px 20px;
+  font-size: 2.4vw;
+  margin-top: 10px;
+  margin-right: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  float: right;
+  transition: 0.3s ease;
+}
+
+.find-location-btn:hover {
+  transform: translateY(5px) translateX(5px);
+}

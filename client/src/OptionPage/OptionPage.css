@@ -1,0 +1,175 @@
+.option-page-bg {
+  min-height: 100vh;
+  background: linear-gradient(to right,#4daf54, #3d8888);
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.search-title {
+  font-family: 'Open Sans', sans-serif;
+  margin-bottom: 20px;
+  color: #4daf54;
+  text-align: center;
+}
+
+.search-ctn {
+  height: 280px;
+  width: 70%;
+  background-color: #272d40;
+  margin: 0 auto;
+  padding: 20px 40px;
+  border-radius: 15px;
+}
+
+.ReactTags__selected {
+  border: 1px solid #888;
+  padding: 8px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: white;
+  border-radius: 7px;
+}
+
+.ReactTags__tag {
+  background: #4daf54;
+  color: white;
+  border-radius: 3px;
+  list-style: none;
+  margin: 4px;
+  padding: 10px;
+  display: flex;
+  font-weight: bold;
+}
+
+.ReactTags__remove {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  font-size: 20px;
+  margin-left: 10px;
+  color: white;
+  cursor: pointer;
+}
+
+.ReactTags__tagInput {
+  flex: 1;
+}
+
+.ReactTags__tagInputField {
+  border: none;
+  outline: none;
+  font-size: 20px;
+  font-family: 'Open Sans', sans-serif;
+  width: 100%;
+  border-radius: 5px;
+  padding: 12px 10px;
+}
+
+.css-i4bv87-MuiSvgIcon-root {
+  font-size: 20px !important;
+  margin-left: 5px;
+}
+
+.search-btn {
+  background: #4daf54;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  margin-top: 20px;
+  margin-right: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.remove-all {
+  background: #4daf54;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  margin-top: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.loading-backdrop {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: black;
+  opacity: 0.3;
+}
+
+.loading-ctn {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.loading-card {
+  background-color: #4daf54;
+  padding: 40px;
+  border-radius: 10px;
+  z-index: 1;
+}
+
+.loading-svg {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  animation: rotate 2s linear infinite;
+}
+
+.loading-circle {
+  width: 100%;
+  height: 100%;
+  fill: none;
+  stroke-width: 10;
+  stroke: white;
+  stroke-linecap: round;
+  transform: translate(5px, 5px);
+  stroke-dasharray: 440;
+  stroke-dashoffset: 440; 
+  animation: animate 4s linear infinite;
+}
+
+@keyframes rotate 
+{
+  0%
+  {
+    transform: rotate(0deg);
+  }
+  100%
+  {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes animate
+{
+  0%,100%
+  {
+    stroke-dashoffset: 440;
+  }
+  50%
+  {
+    stroke-dashoffset: 0;
+  }
+  50.1%
+  {
+    stroke-dashoffset: 880;
+  }
+}

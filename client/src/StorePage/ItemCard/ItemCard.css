@@ -1,0 +1,53 @@
+.store-item-card {
+  background-color: white;
+  display: flex;
+  font-family: 'Open Sans', sans-serif;
+  border-radius: 10px;
+  overflow: hidden;
+  height: 120px;
+}
+
+.store-item-number {
+  width: 15%;
+  text-align: center;
+  font-size: 1.5vw;
+  padding: 40px 0;
+  background-color: #4daf54;
+}
+
+.store-item-number span {
+  color: #272d40;
+  font-weight: bold;
+}
+
+.store-item-img {
+  width: 20%;
+  margin: 0 20px;
+}
+
+.store-item-img img{
+  object-fit: cover;
+  width: 100%;
+}
+
+.store-item-name {
+  font-size: 1vw;
+  padding: 20px 20px;
+  width: 30%;
+  color: #272d40;
+  font-weight: bold;
+}
+
+.store-item-price {
+  font-size: 2vw;
+  padding: 35px 20px;
+  color: #272d40;
+  font-weight: bold;
+  flex: 1;
+}
+
+.store-dollar-sign {
+  font-size: 1.3vw;
+  vertical-align: top;
+  padding-right: 5px;
+}

@@ -1,0 +1,54 @@
+.first-bg {
+  min-height: 100vh;
+  background: linear-gradient(to right,#4daf54, #3d8888);
+  display: flex;
+  justify-content: center;
+  padding: 0 80px;
+}
+
+.plan-box {
+  height: 700px;
+  width: 40%;
+  background-color: #272d40;
+  margin: 180px auto;
+  padding: 20px 40px;
+  border-radius: 15px;
+  text-align: center;
+}
+
+.plan-img {
+  margin: 30px auto;
+  width: 50%;
+  border-radius: 50%;
+}
+
+.plan-img img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.plan-title {
+  color: #4daf54;
+  font-size: 70px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bolder;
+}
+
+.plan-arrow {
+  background-color: #4daf54;
+  border-radius: 20px;
+  margin: 50px 80px 0;
+  padding: 12px 0;
+  cursor: pointer;
+  transition: 0.3s;
+  color: #272d40;
+}
+
+.plan-arrow:hover {
+  transform: translateX(20px);
+}
+
+.css-i4bv87-MuiSvgIcon-root {
+  font-size: 100px !important;
+}

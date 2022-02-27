@@ -1,0 +1,47 @@
+.items {
+  display: flex;
+  padding: 5px 0;
+  margin-left: 20px;
+  font-family: 'Open Sans', sans-serif;
+  width: 60%;
+  color: #272d40;
+}
+
+.item-card {
+  margin: 5px 10px;
+  background-color: #4daf54;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.item-img {
+  height: 80%;
+  width: 150px;
+  padding: 5px;
+  background-color: white;
+}
+
+.item-img img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+
+.item-name {
+  font-size: 17px;
+  text-align: center;
+}
+
+.item-price {
+  background-color: #4daf54;
+  font-size: 1.2vw;
+  text-align: center;
+  padding: 5px 0;
+}
+
+.dollar-sign {
+  font-size: 1vw;
+  margin-right: 2px;
+  vertical-align: top;
+}
