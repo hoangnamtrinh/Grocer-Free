@@ -1,5 +1,5 @@
 # Grocer-Free
-> Belly good, wallet better
+> Belly good, wallet better.
 ## Inspiration
 Our first spark of inspiration came from seeing a post on r/australia about someone complaining that their grocery cost is ‘skyrocketing’ despite buying the same products [link](https://www.reddit.com/r/australia/comments/slqiny/my_grocery_bill_is_skyrocketting_despite_buying/). Further research reveals that prices for products in supermarket chains like Woolworths and Aldi have indeed increased recently. The main reasons for this phenomenon are the increased cost to maintain supply chains because of the pandemic and decreased local supply of many products. Hence, we created Grocer-free, a solution for Australians to save as much money as possible in the face of not only inflation but also deliberate price increases from supermarket chains.
 ## What it does
